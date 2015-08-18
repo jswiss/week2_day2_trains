@@ -53,7 +53,7 @@ window.onload = function (){
         return getTrain1() - getTrain2();
       }
     };
-  alert("You have " + stops() + "to go until you reach your destination");
+  alert("You have " + stops() + " stops to go until you reach your destination");
   console.log("You have " + stops() + " stops to go until you reach your destination");
   })
 };

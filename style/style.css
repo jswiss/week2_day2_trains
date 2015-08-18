@@ -11,13 +11,42 @@
 }
 
 .background {
-  background: url(./images/subway_train.jpg) no-repeat;
+  background: url(./images/subway.jpg) no-repeat;
   display: inline-block;
-  float: right;
+  width: 100%;
 }
 
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
 }
+
+.droplist {
+  display: inline-block;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 20px;
+}
+
+.drop {
+  display: inline-block;
+  padding: 5px;
+}
+
+#button {
+  width:45px;
+  height: 20px;
+  padding: 5px;
+}
+#answer {
+  display: inline-block;
+  width: 200px;
+  height: 75px;
+  border: 5px solid pink;
+  padding-left: 15px;
+}
+
+.form-horizontal {
+  padding-left: 15px;
+}
+
 
