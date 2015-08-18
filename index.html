@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>NYC 3 Line Subway Navigator</title>
+  <link rel="stylesheet" type="text/css" href="./style/style.css">
+  <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<h1>MTA Distance Calculator</h1>
+<div class = "main-boxes">
+  <div class="droplist">
+          <label for="line1" class="droplist">Start train:</label>
+          <div class="line1">
+            <select class="form-control" id="line1-list">
+              <option value="N">N</option>
+<!--          <option value="L">L</option>
+              <option value="6">6</option>  -->
+            </select>
+          </div>
+          <label for="trainStation1" class="droplist">Start:</label>
+          <div class="station1">
+            <select class="form-control" id="station1-list">
+              <option value="Times Square">Times Square</option>
+<!--          <option value="l">L</option>
+              <option value="6">6</option>  -->
+            </select>
+          </div>
+          <label for="line2" class="droplist">Stop train:</label>
+          <div class="line2">
+            <select class="form-control" id="line2-list">
+              <option value="N">N</option>
+<!--          <option value="L">L</option>
+              <option value="6">6</option>  -->
+            </select>
+          </div>
+          <label for="trainStation2" class="droplist">Stop:</label>
+          <div class="station2">
+            <select class="form-control" id="station2-list">
+              <option value="8th">8th</option>
+<!--          <option value="l">L</option>
+              <option value="6">6</option>  -->
+            </select>
+          </div>
+    </div>
+    <div id ="button"><input type="button" name="enter" value="Enter"></div>
+</div>    
+<div class = "title"></div>
+<div class = "background"></div>
+</body>
+ <script src="./js/js.js"></script></html>

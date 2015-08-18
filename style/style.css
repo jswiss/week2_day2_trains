@@ -1,0 +1,23 @@
+
+.title {
+  display: inline;
+}
+
+.main-boxes {
+  display: inline-block;
+  width: 300px;
+  height: 500px;
+  border: 5px solid red;
+}
+
+.background {
+  background: url(./images/subway_train.jpg) no-repeat;
+  display: inline-block;
+  float: right;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+
