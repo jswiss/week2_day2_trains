@@ -1,12 +1,14 @@
 
 .title {
   display: inline;
+  margin: 30px;
 }
 
 .main-boxes {
   display: inline-block;
   width: 300px;
   height: 500px;
+  margin: 35px;
 }
 
 .background {
@@ -18,6 +20,7 @@
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 36px;
+  margin: 30px;
 }
 
 .droplist {
@@ -41,7 +44,7 @@ h1 {
   width: 225px;
   height: 50px;
   background: #27A3EB;
-  margin: 0 auto;
+  margin: 30px;
   text-align: center;
   font-family: 'Dosis', sans-serif;
   font-size: 16px;
