@@ -2,6 +2,9 @@
 window.onload = function (){
 
   var clickResult = document.getElementById('button');
+  var show = function(result){
+  document.getElementById("answer").className = "show";
+};
   clickResult.addEventListener('click', function(stops){
     
     //train arrays for stops
@@ -53,8 +56,9 @@ window.onload = function (){
         return getTrain1() - getTrain2();
       }
     };
-  alert("You have " + stops() + " stops to go until you reach your destination");
   console.log("You have " + stops() + " stops to go until you reach your destination");
+  document.getElementById("answer").innerHTML = "You have " + stops() + " stops to go until you reach your destination";  
+
   })
 };
 
